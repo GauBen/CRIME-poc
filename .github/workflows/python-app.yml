@@ -23,3 +23,5 @@ jobs:
         pip install -r requirements.txt
     - name: RC4
       run: python crime-rc4.py
+    - name: AES-CBC
+      run: python crime-aes-cbc-poc.py
