@@ -1,16 +1,3 @@
-## Project setup update
-
-0. Uninstall pyenv if it's old
-1. Install pyenv (`curl https://pyenv.run | bash`)
-2. Install python 3.10.1 (`pyenv install 3.10.1` and `pyenv global 3.10.1`)
-3. Clone the repo and `cd` into it
-4. Create a virtual env (`python -m venv env`)
-5. Start a shell with the virtual env (`source env/bin/activate`)
-6. Install dependencies (`python -m pip install -r requirements.txt`)
-7. Test the exploits! (`python CRIME-cbc-poc.py`)
-
----
-
 # CVE-2012-4929 alias CRIME
 
 _Une attaque sur TLS/SSL_
@@ -67,7 +54,9 @@ La prévention de l'attaque CRIME est plutôt simple : il suffit que le client (
 
 ## Preuve de Concept
 
-Ici-même.
+Deux possibilités:
+- Exécuter le code localement en clonant le repo
+- Se rendre sur la page [Actions](https://github.com/GauBen/CRIME-poc/runs/4674549420?check_suite_focus=true) de GitHub et regarder le résultat directement ! Les onglets **RC4** et **AES-CBC** sont les plus intéressants à observer.
 
 ## Sources
 
